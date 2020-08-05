@@ -1,0 +1,80 @@
+
+aside{
+  width: 10%;
+  float: left;
+  height: 100vh;
+}
+.container{
+  width: 42%;
+  float: left;
+}
+.btn{
+  background: #72C3DC;
+  padding: 10px;
+  width: 100px;
+  border-radius: 8px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.card{
+  width:25%;
+  float:left;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+.block_b1{
+  background: #000000;
+}
+.block_b2{
+  background: #333333;
+}
+.block_b3{
+  background: #FFFFFF;
+}
+.block_b4{
+  background: #EFEFEF;
+}
+.block_b5{
+  background: #72C3DC;
+}
+.block_b6{
+  background: #2B8EAD;
+}
+.block_b7{
+  background: #6F98A8;
+}
+.block_b8{
+  background: #BFBFBF;
+}
+.block_b9{
+  background: #2F454E;
+}
+.text-center{
+  text-align: center;
+}
+footer{
+  clear:both;
+}
+@media screen and (max-width: 600px) {
+  .card{
+    width:84%;
+    float:left;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #FFFFFF;
+  }
+  aside{
+  width: 25%;
+  float: left;
+  }
+  .container{
+    width: 75%;
+    float: left;
+  }
+}
