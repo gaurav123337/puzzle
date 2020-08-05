@@ -1,8 +1,10 @@
-
+body{
+  background: #EFEFEF;
+}
 aside{
   width: 10%;
   float: left;
-  height: 100vh;
+  height: 53vh;
 }
 .container{
   width: 42%;
@@ -18,40 +20,58 @@ aside{
   margin-bottom: 20px;
 }
 .card{
-  width:25%;
+  width:30%;
   float:left;
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 50px;
   font-weight: bolder;
   color: #FFFFFF;
 }
 .block_b1{
   background: #000000;
+  display: block;
+  padding: 20px;
 }
 .block_b2{
   background: #333333;
+  display: block;
+  padding: 20px;
 }
 .block_b3{
-  background: #FFFFFF;
+  background: #BFBFBF;
+  display: block;
+  padding: 20px;
 }
 .block_b4{
-  background: #EFEFEF;
+  background: #2B8EAD;
+  display: block;
+  padding: 20px;
 }
 .block_b5{
   background: #72C3DC;
+  display: block;
+  padding: 20px;
 }
 .block_b6{
   background: #2B8EAD;
+  display: block;
+  padding: 20px;
 }
 .block_b7{
   background: #6F98A8;
+  display: block;
+  padding: 20px;
 }
 .block_b8{
-  background: #BFBFBF;
+  background: #6F98A8;
+  display: block;
+  padding: 20px;
 }
 .block_b9{
   background: #2F454E;
+  display: block;
+  padding: 20px;
 }
 .text-center{
   text-align: center;
@@ -59,22 +79,81 @@ aside{
 footer{
   clear:both;
 }
+
+
 @media screen and (max-width: 600px) {
+  body{
+    background: #FFFFFF;
+  }
   .card{
-    width:84%;
-    float:left;
-    text-align: center;
-    padding: 20px;
-    font-size: 24px;
-    font-weight: bolder;
-    color: #FFFFFF;
+    width:100%;
+    background: #EFEFEF;
+    margin-bottom: 10px;
+    color: #000000;
   }
   aside{
-  width: 25%;
-  float: left;
+  width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    margin-top: 55px;
   }
   .container{
-    width: 75%;
-    float: left;
+    width: 100%;
+    margin-top: 26px;
   }
+  .block_b1{
+  border-left:5px solid #000000;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
+.block_b2{
+  border-left:5px solid #333333;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
+.block_b3{
+  border-left:5px solid #BFBFBF;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
+.block_b4{
+  border-left:5px solid #2B8EAD;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
+.block_b5{
+  border-left:5px solid #72C3DC;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
+.block_b6{
+  border-left:5px solid #2B8EAD;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
+.block_b7{
+  border-left:5px solid #6F98A8;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
+.block_b8{
+  border-left:5px solid #6F98A8;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
+.block_b9{
+  border-left:5px solid #2F454E;
+  display: block;
+  padding: 20px;
+  background: transparent;
+}
 }

@@ -1,8 +1,7 @@
 var initArr = [1,2,3,4,5,6,7,8,9];
 
 function numGen(){
-  console.log("shuffle");
-  var a=[];
+  let a=[];
   for (i=0;i<10;++i){
     a[i]=i;
   }
@@ -11,8 +10,8 @@ function numGen(){
 
 
 function shuffle() {
-  var array =  numGen();
-  var tmp, current, top = array.length;
+  let array =  numGen();
+  let tmp, current, top = array.length;
   if(top) while(--top) {
     current = Math.floor(Math.random() * (top + 1));
     tmp = array[current];
@@ -23,11 +22,10 @@ function shuffle() {
 }
 
 function blockGen(array){
-  var html = "";
-  for(var i =0; i < array.length; i++){
-    // html = "<div class='block_b'"+item+">";
+  let html = "";
+  for(let i =0; i < array.length; i++){
     html = html +`
-    <div class="card block_b${array[i]}">${array[i]}</div>
+    <div class="card"><span class="block_b${array[i]}">${array[i]}</span></div>
     `;
 
   }
